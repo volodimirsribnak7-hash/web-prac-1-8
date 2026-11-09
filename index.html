@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-
-    <title>Огляд Counter-Strike 2 — Сучасний тактичний шутер від Valve</title>
-    <meta name="description" content="Детальний огляд оновленого шутера Counter-Strike 2 на рушії Source 2: нові динамічні димові гранати, карти, режими гри та порівняння зброї.">
-    <meta name="keywords" content="Counter-Strike 2, CS2, шутер, Valve, Source 2, кіберспорт, огляд гри">
+    
+    <title>Зв'язатися з нами — Огляд Counter-Strike 2</title>
+    <meta name="description" content="Форма зворотного зв'язку для відвідувачів сайту про Counter-Strike 2. Залиште свій відгук або запитання.">
+    <meta name="keywords" content="Counter-Strike 2, зв'язок, відгук, форма, CS2">
     <meta name="author" content="Вова">
 
-    <meta property="og:title" content="Огляд відеогри Counter-Strike 2">
-    <meta property="og:description" content="Дізнайтеся про головні нововведення, карти та механіки у Counter-Strike 2.">
-    <meta property="og:type" content="website">
-
-
+    
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVeRskhk5VYi0Y0mQf01pMhppaUX3M4KVcd0IIGQN_kQ&s=10logo.jpg" type="image/x-icon">
 
- 
-    <link rel="stylesheet" href="style5.css">
+    
+    <link rel="stylesheet" href="style6.css">
 </head>
 <body id="top">
 
-
+    
     <header class="site-header">
         <div class="header-container">
             <a href="#top" class="logo">CS<span>2</span> Lab</a>
@@ -32,12 +28,15 @@
                     <li><a href="#gameplay">Процес і карти</a></li>
                     <li><a href="#weapons">Зброя</a></li>
                     <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#contact">Зв'язок</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
     <main id="main-content">
+        
         
         <section id="about" class="section">
             <div class="container about-container">
@@ -52,21 +51,13 @@
                 <p>
                     Найбільшою зміною стали <em class="highlight">динамічні димові гранати</em>, які тепер взаємодіють з оточенням, кулями та вибухами. Також розробники оновили систему рейтингу та переробили популярні карти.
                 </p>
-
-           
                 <aside class="info-aside">
                     <h3>Цікавий факт</h3>
                     <p>Перехід на рушій Source 2 дозволив зробити димові гранати об'ємними — тепер дим реагує на освітлення, розсікається кулями та заповнює приміщення природним шляхом.</p>
                 </aside>
-
-                <p>
-                    Детальніше про останні патчі та оновлення можна дізнатися на 
-                    <a href="https://counter-strike.net" target="_blank">офіційному сайті Counter-Strike</a>.
-                </p>
             </div>
         </section>
 
-        
         <section id="gameplay" class="section alt-bg">
             <div class="container">
                 <h2 class="section-title">Ігровий процес та карти</h2>
@@ -94,7 +85,6 @@
             </div>
         </section>
 
-        
         <section id="weapons" class="section">
             <div class="container">
                 <h2 class="section-title">Порівняння популярної зброї</h2>
@@ -140,7 +130,7 @@
             </div>
         </section>
 
-     
+        <!-- Секція 4: Галерея -->
         <section id="gallery" class="section alt-bg">
             <div class="container">
                 <h2 class="section-title">Галерея скріншотів</h2>
@@ -157,9 +147,67 @@
                 </div>
             </div>
         </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Зв'язатися з автором сайту</h2>
+                
+                <form action="#" method="POST" class="feedback-form">
+                    
+                    
+                    <div class="form-group">
+                        <label for="user-name">Ваше ім'я:</label>
+                        <input type="text" id="user-name" name="user_name" placeholder="Наприклад, Олександр" required>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <label for="user-email">Електронна пошта:</label>
+                        <input type="email" id="user-email" name="user_email" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <!-- Випадний список (Select) -->
+                    <div class="form-group">
+                        <label for="subject">Тема звернення:</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>--- Оберіть варіант ---</option>
+                            <option value="review">Залишити відгук про сайт</option>
+                            <option value="question">Запитання щодо гри</option>
+                            <option value="cooperation">Пропозиція співпраці</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Бажаний спосіб зв'язку:</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="contact_method" value="email" checked> Відповісти на Email
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="contact_method" value="telegram"> Написати в Telegram
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Ваше повідомлення:</label>
+                        <textarea id="message" name="user_message" rows="4" placeholder="Введіть ваш текст тут..."></textarea>
+                    </div>
+
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">Я погоджуюсь на обробку персональних даних та підписатися на оновлення</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Надіслати повідомлення</button>
+
+                </form>
+            </div>
+        </section>
+
     </main>
 
-    
     <footer class="site-footer">
         <div class="container">
             <p>&copy; 2026 Counter-Strike 2 Fan Page. Усі права захищені.</p>
@@ -167,7 +215,7 @@
         </div>
     </footer>
 
-   
+
     <a href="#top" class="back-to-top" aria-label="Повернутися на початок сторінки">
         &#8593;
     </a>
